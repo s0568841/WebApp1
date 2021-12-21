@@ -1,4 +1,4 @@
-package entity;
+package todolistehaupt.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,10 +9,10 @@ import javax.persistence.Id;
 public class ToDoListeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
-    private String note;
-    private String headline;
-    private boolean done;
+    private long id=1;
+    private String note="TextText";
+    private String headline="Text";
+    private boolean done=false;
 
     public ToDoListeEntity () {};
 

@@ -1,12 +1,14 @@
-package services;
+package todolistehaupt.services;
 
-import entity.ToDoListeEntity;
+import todolistehaupt.entity.ToDoListeEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.ToDoListeRepository;
+import todolistehaupt.repository.ToDoListeRepository;
 
 @Service
 public class ToDoListeService {
+
+    ToDoListeService () {}
 
     @Autowired
     ToDoListeRepository repo;
